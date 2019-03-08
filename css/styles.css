@@ -1,8 +1,16 @@
-.container-fluid {
-    background-color: yellow;
+@import url('https://fonts.googleapis.com/css?family=Srisakdi');
+
+body{
+    font-family: 'Srisakdi', cursive;
 }
 
-header {
-    background-color: blue;
-    height: 150px;
+.container-fluid {
+    background-color: grey;
+}
+
+
+@media (max-width: 588px) {
+    .container-fluid {
+        background-color: pink;
+    }
 }
