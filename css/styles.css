@@ -6,3 +6,34 @@ header {
     background-color: blue;
     height: 150px;
 }
+
+.nav {
+    background-color: green;
+    height: 50px;
+}
+
+.content {
+    background-color: red;
+    height: 200px; 
+}
+
+.aside {
+    background-color: aqua;
+    height: 200px;
+}
+
+.promo {
+    background-color: orange;
+    height: 75px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    height: 25px;
+}
+
+header, .nav, .content, .aside, .promo, .footer {
+    border-color: black;
+    border-width: 5px;
+}
